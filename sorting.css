@@ -1,0 +1,33 @@
+/* google fonts */
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100&display=swap');
+
+body{
+    background-color: #343A40;
+}
+
+/* main heading */
+
+.main-heading{
+    color: white;
+    text-align: center;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 3rem;
+    padding: 1.5rem 0 0 0;
+}
+
+/* Navbar for all the buttons   */
+.new-array{
+    margin: 2rem;
+}
+
+.sorting-buttons{
+    margin-left: 30rem;
+    margin-bottom: 20rem;
+}
+
+.sorting-buttons button{
+    margin: 1rem;
+}
+
+
+
