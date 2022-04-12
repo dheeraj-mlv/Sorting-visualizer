@@ -29,5 +29,19 @@ body{
     margin: 1rem;
 }
 
+/* bars division */
+
+.bars-div{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    
 
 
+}
+
+.bars{
+    background-color: #C2C413;
+    width: 0.4rem;
+    margin:0.2rem;
+}

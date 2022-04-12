@@ -1,0 +1,68 @@
+function swap(el1,el2){
+    const style1 = window.getComputedStyle(el1);
+      const style2 = window.getComputedStyle(el2);
+ 
+ 
+      const transform1 = style1.getPropertyValue("height");
+      const transform2 = style2.getPropertyValue("height");
+ 
+      el1.style.height = transform2;
+      el2.style.height = transform1;
+}
+
+
+var x=document.querySelectorAll(".bars");
+
+for(i=0;i<x.length;i++){
+  for(j=0;j<x.length-i-1;j++){
+      if(x[j].style.height>x[i].style.height){
+          swap(x[j],x[j+1]);
+      }
+  }
+}
+
+
+
+for (let i = 0; i < x.length -1; i++) {
+
+    if(x[i].style.height>x[i+1].style.height){
+        swap(x[i],x[i+1]);}
+}
+
+
+
+function swap(el1,el2){
+    const style1 = window.getComputedStyle(el1);
+      const style2 = window.getComputedStyle(el2);
+ 
+ 
+      const transform1 = style1.getPropertyValue("height");
+      const transform2 = style2.getPropertyValue("height");
+ 
+      el1.style.height = transform2;
+      el2.style.height = transform1;
+}
+
+
+
+
+var arr=document.querySelectorAll(".bars);
+
+var n= arr.length;
+
+
+  var  i, j;
+    for (i = 0; i < n-1; i++){
+
+         
+        for (j = 0; j < n-i-1; j++){
+            var aj=a[j].id*1;
+            var aj1=a[j+1].id*1;
+
+             if (aj > aj1)
+            {swap(arr[j], arr[j+1]);}
+        }
+       
+    }  
+     
+   
